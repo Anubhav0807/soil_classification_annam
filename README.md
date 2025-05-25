@@ -106,6 +106,62 @@ img3.png      1
 
 ---
 
+## 🚀 Setup & Run Instructions
+
+### 📦 Prerequisites
+
+Ensure you have **Python 3.8+** installed. Check with:
+
+```bash
+python --version
+```
+
+Also verify `pip` is available:
+
+```bash
+pip --version
+```
+
+---
+
+### 🛠️ Installation
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/Anubhav0807/soil_classification_annam.git
+cd soil_classification_annam
+```
+
+2. **(Optional) Create a Virtual Environment**
+
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+```
+
+3. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### ▶️ Running Notebooks
+
+You can open and run the notebooks using Jupyter:
+
+```bash
+pip install notebook
+jupyter notebook
+```
+
+Then navigate to the notebook you want to open and run all cells.
+
+---
+
+
 ## 🔮 Future Improvements
 
 - Use pretrained networks like ResNet for better feature extraction
